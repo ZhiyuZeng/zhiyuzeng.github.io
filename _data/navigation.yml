@@ -1,0 +1,14 @@
+# main links links
+main:
+  - title: "Research"
+    url: /publications
+
+  - title: "Teaching"
+    url: /teaching
+
+  # - title: "Blog Posts"
+  #   url: /year-archive/
+    
+  - title: "CV"
+    url: /files/ZhiyuZeng_CV_2023.pdf
+    
