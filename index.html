@@ -1,0 +1,943 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <style>
+body {
+  font-family: Arial, Helvetica, sans-serif, monospace;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #8d93ab;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+    <link rel="shortcut icon" type="image/png" href="pic/Q.png">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="keywords" content="Zhiyu Zeng, IST, CS, PSU, ZJU, Zhejiang University, Data Science, Security, Machine Learning, Privacy, Optimization"> 
+    <meta name="description" content="Zhiyu Zeng's Homepage">
+    <link rel="stylesheet" href="jemdoc.css" type="text/css" />
+    <title>Zhiyu Zeng</title>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-39824124-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <script type="text/javascript">
+       function toggle_visibility(id) {
+           var e = document.getElementById(id);
+           if(e.style.display == 'block')
+              e.style.display = 'none';
+           else
+              e.style.display = 'block';
+       }
+    </script>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <div id="layout-menu">
+    <a href="#bio">Bio</a>
+    <a href="#news">News</a>
+    <a href="#publications">Publications</a>
+	<a href="#experience">Experience</a>
+    <!-- <a href="#projects">Projects</a> -->
+        <!--<a href="#publications">Products</a> -->
+    <a href="#teaching">Teaching</a>
+    <a href="#service">Service</a>
+    <!-- <a href="#service">Activities</a> -->
+    <!-- <a href="#teaching">Teaching</a> -->
+    <a href="">CV</a>
+        <!--<a href="./CV_Xin_Wang.pdf">CV</a> -->
+	<!-- <a href='#personal'>Personal</a> -->
+    </div>
+</nav>
+
+
+<div id="layout-content" style="margin-top:25px">
+
+
+<table>
+	<tbody>
+		<tr>
+			<td width="670">
+				<div id="toptitle">					
+					<h1>Zhiyu Zeng<h1>
+				</div>
+                <!-- <p><img src="pic/sign.png" height=45px></p> -->
+                
+				<h3>Post-Doctoral Research Associate</h3>
+				<p>
+					<a href="https://olin.wustl.edu/">Olin Business School</a></br>
+                    Washington University in St. Louis </br>
+		
+					Email: zengz [at] wustl [dot] edu
+				</p>
+				<p>
+					<a href="https://scholar.google.com/citations?user=ZGTVInsAAAAJ&hl=en"><img src="pic/GoogleScholar.png" height="30px" style="margin-bottom:-3px"></a>
+                    <a href="https://www.linkedin.com/in/uniquexinwang"><img src="pic/LinkedIn.png" height="30px" style="margin-bottom:-3px"></a>
+                    <!--<a href="https://github.com/eric-xw"><img src="pic/git.svg" height="30px" style="margin-bottom:-3px"></a> -->
+                    <!-- <iframe id="twitter-widget-4" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" title="Twitter Follow Button" src="https://platform.twitter.com/widgets/follow_button.59df888963e9d6219f6e6c7ff5d8b951.en.html#dnt=false&amp;id=twitter-widget-4&amp;lang=en&amp;screen_name=xwang_lk&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1524631465785" style="position: static; visibility: visible; width: 155px; height: 20px;" data-screen-name="TwitterDev"></iframe> -->
+				</p>
+			</td>
+			<td>
+                <!-- <img class="img-circle" alt="" src="pic/jiaqi.png",border="0" width="250px"> -->
+             
+                <!--<img class="img-circle" src="pic/jiaqi.png" border="0" width="200px"></br> -->
+                <!-- <script language=javascript>
+                    id=Math.round(Math.random()*3)+1
+                    document.write( "<img class=\"img-circle\" src=\""+id+".png\" order=\"0\" width=\"200px\"></br>")
+                </script> -->
+                <img class="img-circle" src="pic/zhiyu_pic.jpg" border="0" width="250px">
+                
+			</td>
+		<tr>
+	</tbody>
+</table>
+
+<br>
+
+<div id="bio">
+<h2>Bio</h2>
+<p style="text-align:justify; text-justify:inter-ideograph;"> Zhiyu Zeng is currently working as a Post-Doctoral Research Associate at the <a href="https://olin.wustl.edu/">Olin Business School</a>, Washington University in St. Louis. In 2023, I earned my Ph.D. in Management Science and Engineering from Tsinghua University, where I was advised by <a href="https://shen.ieor.berkeley.edu/">Prof. Zuo-Jun Max Shen</a>. Prior to this, in 2018, I completed my bachelor’s degrees in both Industrial Engineering and Business Administration, also at Tsinghua University.</p> <p><strong>I will be on the job market in 2025!</strong></p>
+<!-- He also visited <a href = "https://www.purdue.edu/"> Purdue University</a>,
+<a href="http://www.nus.edu.sg/">National University of Singapore</a>, and <a href="https://www.tum.de/"> Technische Universität München</a> as an exchange student.
+Currently he is working with Dr. <a href="http://www.personal.psu.edu/ffm5105/">Fenglong Ma</a>. Previously, he cooperated with Dr. <a href="https://asquicciarini.ist.psu.edu/">Anna Cinzia Squicciarini</a>, <a href="http://www.personal.psu.edu/cxg286/">Christopher Griffin</a>, and <a href="https://www.sarahrajtmajer.com/">Sarah Rajtmajer</a>. -->
+<!-- <br><br> -->
+
+<h3>Research Scope</h3>
+<p style="text-align:justify; text-justify:inter-ideograph;"> Zhiyu's research examines operational challenges within digital platforms, adopting a causality-centric lens. I utilize data-driven causal inference, field experimentation, structural modeling, and machine learning techniques to analyze and enhance the strategies within online marketplaces. A particular focus of my work is on improving the incentives for both supply and demand sides of these digital ecosystems.</p>	
+
+<!-- <ul>
+    <li>
+        Heterogeneous Federated Learning, Personalized Federated Learning, Unified Federated Learning
+    </li>
+    <li>
+        Large Model Distributed Learning, Foundation Model Federated Learning
+    </li>
+    <li>
+        Machine Learning in Healthcare 
+    </li>
+</ul> -->
+
+<!--<h3>Hiring</h3> -->
+<!--<font color="darkred">I am looking for highly-motivated students (esp. PhD students starting in Fall 2021). 
+    Please read <a href="./hiring.html">the information for <b>prospective students and visitors</b></a> and check out the most beautiful and unique campus of UCSC [<a href="https://www.youtube.com/watch?v=ogGSFZUjrwE">YouTube video</a> | <a href="https://www.bilibili.com/video/BV1xz411e77n?from=search&seid=1387866364580672367">bilibili video</a>]. </font> -->
+<!-- <br><br> -->
+
+<!-- <br><br>
+His research interests include natural language processing, computer vision, and machine learning, especially the intersection of them. 
+More specifically, 
+<ul>
+    <li>
+        Language, Vision, and Knowledge,
+    </li>
+    <li>
+        Embodied Agents,
+    </li>
+    <li>
+        Multilingual Language Grounding,
+    </li>
+    <li>
+        Human Activity Understanding in Videos.
+    </li>
+</ul> -->
+</div>
+<br>
+<div id="news">
+<h2>News</h2>
+<div style="overflow-y: scroll; height:300px;">
+<table>
+        <!-- <tr valign="top"> <td>[<b>NEW!</b>] </td> <td> I successfully defended my Ph.D. Thesis "Closing the Loop Between Language and Vision for Embodied Agents". Thanks to the committee and everyone who has helped me along the Ph.D. journey!</td></tr>
+        <tr valign="top"> <td>[<b>NEW!</b>] </td> <td> I am serving as an Area Chair for <a href="https://2020.emnlp.org">EMNLP 2020</a>. </td></tr>
+        <tr valign="top"> <td>[<b>NEW!</b>] </td> <td> Organizing the <a href="https://alvr-workshop.github.io">workshop on Advances in Language and Vision Research (ALVR)</a> at ACL 2020. Welcome to participate on <b>July 9th</b>!</td></tr>
+        <tr valign="top"> <td>[03/2020] </td> <td> Invited panelist at the <a href="https://www.nvidia.com/en-us/gtc/"> GPU Technology Conference (GTC) 2020. </td></tr>
+       <tr valign="top"> <td>[01/2020] </td> <td> Invited talk at Toyota Technological Institute at Chicago (TTIC).</td></tr> -->
+    <tr valign="top"> <td>[03/2024] </td> <td> Received the IST Ph.D. Student Award for Research Excellence, the highest honor for IST graduate students in research. Thank my advisor and collaborators!</td></tr>
+    <tr valign="top"> <td>[02/2024] </td> <td> One tutorial was accepted by <a href="https://pakdd2024.org/"> PAKDD 2024</a> on heterogeneity in federated learning.</td></tr>
+    <tr valign="top"> <td>[02/2024] </td> <td> Received SDM 2024 Travel Award.</td></tr>
+    <tr valign="top"> <td>[02/2024] </td> <td> One paper was accepted by <a href="https://lrec-coling-2024.org/"> LREC-Coling 2024</a> on automated ICD coding.</td></tr>
+    <tr valign="top"> <td>[02/2024] </td> <td> Two paper were accepted by <a href="https://pakdd2024.org/"> PAKDD 2024</a> on personalized federated learning (oral presentation) and foundation models in federated learning (poster).</td></tr>
+    <tr valign="top"> <td>[01/2024] </td> <td> I was invited to serve as a PC member for<a href="https://ijcai24.org/"> IJCAI 2024</a>.</td></tr>
+    <tr valign="top"> <td>[01/2024] </td> <td> I will join  <a href="https://ai.sony/"> Sony AI</a> as a research intern working on foundation models in federated learning this spring.</td></tr>
+    <tr valign="top"> <td>[12/2023] </td> <td> Two paper were accepted by <a href="https://www.siam.org/conferences/cm/conference/sdm24"> SDM 2024</a> on EHR data generation with diffusion models and automated machine learning for risk prediction.</td></tr>
+    <tr valign="top"> <td>[11/2023] </td> <td> One paper was accepted by <a href="https://aaai.org/aaai-conference/"> AAAI 2024</a> on security of pre-trained models.</td></tr>
+    <tr valign="top"> <td>[11/2023] </td> <td> One tutorial was accepted by <a href="https://www.siam.org/conferences/cm/conference/sdm24"> SDM 2024</a> on heterogeneity in federated learning.</td></tr>
+    <tr valign="top"> <td>[10/2023] </td> <td> One paper was accepted by <a href="https://federated-learning.org/fl@fm-neurips-2023/"> International Workshop on Federated Learning in the Age of Foundation Models in Conjunction with NeurIPS 2023</a> on foundation model security in federated learning.</td></tr>   
+    <tr valign="top"> <td>[10/2023] </td> <td> Received NeurIPS 2023 Scholar Award.</td></tr>   
+    <tr valign="top"> <td>[10/2023] </td> <td> One paper was accepted by <a href="https://2023.emnlp.org/"> EMNLP 2023</a> on hierarchical pretraining using multimodal EHR data.</td></tr>
+    <tr valign="top"> <td>[09/2023] </td> <td> One paper was accepted by <a href="https://rdodjournal.com/"> Rare Disease and Orphan Drugs Journal</a> on federated learning for rare disease detection.</td></tr>
+    <tr valign="top"> <td>[09/2023] </td> <td> One paper was accepted by <a href="https://nips.cc/"> NeurIPS 2023</a> on heterogeneous model reassembly in FL.</td></tr>
+    <tr valign="top"> <td>[09/2023] </td> <td> I was invited to serve as a PC member for<a href="https://www.siam.org/conferences/cm/conference/sdm24"> SDM 2024</a>.</td></tr>
+    <tr valign="top"> <td>[08/2023] </td> <td> I was invited to serve as a reviewer for<a href="https://logconference.org/"> Learning on Graphs 2023</a>.</td></tr
+    <tr valign="top"> <td>[08/2023] </td> <td> One survey paper "Multimodal Federated Learning: A Survey" was accepted by <a href="https://www.mdpi.com/journal/sensors"> Sensors</a>.</td></tr>
+    <tr valign="top"> <td>[03/2023] </td> <td> Received KDD 2023 Travel Award.</td></tr>
+    <tr valign="top"> <td>[06/2023] </td> <td> One paper was accepted by <a href="https://fl4data-mining.github.io/"> Federated Learning for Distributed Data Mining, KDD 2023</a> on heterogeneous model aggregation in FL.</td></tr>
+    <tr valign="top"> <td>[06/2023] </td> <td> I was invited to serve as a reviewer for<a href="https://2023.emnlp.org/"> EMNLP 2023</a>.</td></tr
+    <tr valign="top"> <td>[05/2023] </td> <td> I was invited to serve as a PC member for<a href="https://fl4data-mining.github.io/"> FL for Distributed Data Mining KDD 2023</a>.</td></tr>
+    <tr valign="top"> <td>[04/2023] </td> <td> I will join  <a href="https://usa.visa.com/about-visa/visa-research.html"> Visa Research</a> as a machine learning research intern at the ATL office this summer.</td></tr>
+    <!-- <tr valign="top"> <td>[04/2023] </td> <td> Received SDM 2023 Travel Award.</td></tr> -->
+    <tr valign="top"> <td>[03/2023] </td> <td> Received SDM 2023 Travel Award.</td></tr>
+    <tr valign="top"> <td>[02/2023] </td> <td> Received IST College 2023 Travel Award.</td></tr>
+    <tr valign="top"> <td>[02/2023] </td> <td> I was invited to serve as a reviewer for<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385"> IEEE Transactions on Neural Networks and Learning Systems</a>.</td></tr
+    <tr valign="top"> <td>[01/2023]</td> <td> I passed the comprehensive exam and became a Ph.D. candidate.</td></tr
+    <tr valign="top"> <td>[01/2023]</td> <td> I was invited to serve as a reviewer for<a href="https://ncsu-dk-lab.github.io/workshops/dcaa@2023/"> AAAI 2023 Workshop for AI Acceleration</a>.</td></tr
+    <tr valign="top"> <td>[12/2022] </td> <td> One paper was accepted by <a href="https://www.siam.org/conferences/cm/conference/sdm23"> SDM 2023</a> on semi-supervised federated learning.</td></tr>
+    <tr valign="top"> <td>[12/2022] </td> <td> I was invited to serve as a PC member for<a href="https://kdd.org/kdd2023/"> KDD 2023</a>.</td></tr>
+    <tr valign="top"> <td>[12/2022] </td> <td> I was invited to serve as a PC member for<a href="https://2023.aclweb.org/"> ACL 2023</a>.</td></tr>
+    <tr valign="top"> <td>[11/2022] </td> <td> I was invited to serve as a PC member for<a href="https://charliezhaoyinpeng.github.io/UDM-AAAI23/"> AAAI 2023 Workshop</a>.</td></tr>
+    <tr valign="top"> <td>[11/2022] </td> <td> Received IST College 2022 Travel Award.</td></tr>
+    <tr valign="top"> <td>[10/2022] </td> <td> One paper was accepted by <a href="https://ieeebibm.org/BIBM2022/"> BIBM 2022</a> on automated medical risk predictive modeling on EHR.</td></tr>
+    <tr valign="top"> <td>[10/2022] </td> <td> I was invited to serve as a reviewer for<a href="https://meta-learn.github.io/2022/"> NeurIPS 2022 Workshop MetaLearn</a>.</td></tr
+    <tr valign="top"> <td>[09/2022] </td> <td> I was invited to serve as a reviewer for<a href="https://logconference.org/"> Learning on Graphs 2022</a>.</td></tr
+    <tr valign="top"> <td>[08/2022] </td> <td> One paper was accepted by <a href="https://icdm22.cse.usf.edu/"> ICDM 2022</a>.</td></tr
+    <tr valign="top"> <td>[08/2022] </td> <td> I was invited to serve as a PC Member for<a href="https://sites.google.com/view/fedgraph2022"> FedGraph 2022</a>.</td></tr
+    <tr valign="top"> <td>[07/2022] </td> <td> I was invited to serve as a PC Member for<a href="https://aaai.org/Conferences/AAAI-23/"> AAAI 2023</a>.</td></tr
+    <tr valign="top"> <td>[06/2022] </td> <td> One paper was accepted by <a href="https://2022.ecmlpkdd.org/"> ECML PKDD 2022</a> on COVID-19 vaccine side effect prediction using federated learning.</td></tr>
+    <tr valign="top"> <td>[03/2022] </td> <td> I will join  <a href="https://usa.visa.com/about-visa/visa-research.html"> Visa Research</a> as a machine learning research intern this summer.</td></tr>
+    <tr valign="top"> <td>[02/2022] </td> <td> I start to cooperate with <a href="https://www.sony.com/en/SonyInfo/research/"> Sony R&D Center</a> to work on federated learning in multi-domain applications.</td></tr>
+    <tr valign="top"> <td>[10/2021] </td> <td> One paper was accepted by <a href="https://bigdataieee.org/BigData2021/"> BigData 2021</a> on semi-supervised federated learning.</td></tr>
+    <tr valign="top"> <td>[04/2021] </td> <td> One paper was accepted by <a href="https://asian-chi.github.io/2021/"> Asian Chi 2021</a>. Thanks Dr. <a href="http://www.frankritter.com/ritter.html">Ritter</a>!</td></tr>
+    <tr valign="top"> <td>[04/2021] </td> <td> I will join <a href="https://www.iqvia.com/landing/analytics-center-of-excellence"> Analytics Center of Excellence, IQVIA </a> as a machine learning research intern in 2021 summer.</td></tr>
+    <tr valign="top"> <td>[03/2021] </td> <td> Received IST College 2021 Travel Award.</td></tr>
+    <tr valign="top"> <td>[02/2021] </td> <td> I was invited to serve as a reviewer for<a href="https://2021.aclweb.org/"> ACL-IJCNLP 2021</a>.</td></tr>
+    <!-- <tr valign="top"> <td>[01/2021] </td> <td> I will join <a href="https://ailab.bytedance.com/"> ByteDance AI Lab</a> as a research intern in 2021 summer.</td></tr> -->
+    <tr valign="top"> <td>[01/2021] </td> <td> One paper was accepted by <a href="https://ppai21.github.io/"> AAAI Workshop 2021</a> and selected as Spotlight Presentation.</td></tr>
+    <tr valign="top"> <td>[11/2020] </td> <td> I was invited to serve as a session chair at <a href="http://www.ieee-cybermatics.org/2020/cybermatics/"> IEEE Cybermatics Congress 2020</a>.</td></tr>
+    <tr valign="top"> <td>[10/2020] </td> <td> I was invited to give a talk at <a href="https://www.kennesaw.edu/"> Kennesaw State University</a>. Thank <a href="http://ksuweb.kennesaw.edu/~xxu6/">Dr. Xu</a> for host.</td></tr>
+    <tr valign="top"> <td>[10/2020] </td> <td> One paper was accepted by <a href="http://noisy-text.github.io/2020/"> W-NUT 2020</a>.</td></tr>
+    <tr valign="top"> <td>[09/2020] </td> <td> Served as an external reviewer for <a href="http://www.wsdm-conference.org/2021/"> WSDM 2021</a>.</td></tr>   
+	<tr valign="top"> <td>[08/2020] </td> <td> Served as an external reviewer for <a href="https://www.sigsac.org/ccs/CCS2020/"> CCS 2020</a>.</td></tr>
+	<!-- <tr valign="top"> <td>[08/2020] </td> <td> Top 25 in the finalist for <a href="https://outreach.didichuxing.com/competition/kddcup2020/"> KDD Cup 2020 LDR Competition</a>.</td></tr> -->
+    <tr valign="top"> <td>[08/2020] </td> <td> I was invited to serve as a reviewer for <a href="https://www.ipccc.org/"> IEEE IPCCC 2020</a>.</td></tr>
+	<tr valign="top"> <td>[06/2020] </td> <td> I was invited to serve as a reviewer for <a href="http://wasa-conference.org/WASA2020/"> WASA 2020</a>.</td></tr>
+    <tr valign="top"> <td>[06/2020] </td> <td> I was invited to serve as a reviewer for <a href="https://www.emerald.com/insight/publication/issn/2398-6247"> Information Discovery and Delivery</a>.</td></tr>
+    <tr valign="top"> <td>[10/2019] </td> <td> I was invited to give a talk at the annual conference of Zhejiang University Alumni Association in North America.</td></tr>
+	<tr valign="top"> <td>[08/2019] </td> <td> I moved from Georgia to Pennsylvania. Bye old friends and hi new friends!
+	<tr valign="top"> <td>[03/2019] </td> <td> I received the 2019 Brahm Verma Graduate Leadership Award - Honorable Mention.
+	<tr valign="top"> <td>[10/2018] </td> <td> I was invited to give a talk at the Youth Scholar Forum hold by Georgia Tech and Association of Chinese Professionals.</td><tr>
+	<!-- <tr valign="top"> <td>[10/2019] </td> <td> Invited speaker at the <a href="https://sites.google.com/site/iccv19clvllsmdc/home">ICCV 2019 Workshop on Closing the Loop Between Vision and Language</a>.</td></tr> -->
+        <!--<tr valign="top"> <td>[04/2020] </td> <td> I accepted the invitation to serve as Program Committee Member of <a href = "http://www.icccn.org/"> ICCCN2020</a>. </td></tr> -->
+        <!--<tr valign="top"> <td>[06/2019] </td> <td> Co-Organizer of the <a href="https://sites.google.com/site/iccv19clvllsmdc/home">workshop on Closing the Loop Between Vision and Language</a> at ICCV 2019. </td></tr> -->
+        <!--<tr valign="top"> <td>[06/2019] </td> <td> Invited talk at Facebook AI.  </td></tr> <!-- "Language & Vision: Learning to Describe and Interact with the World". -->
+        <!--<tr valign="top"> <td>[01/2019] </td> <td> Session Chair for AAAI 2019 (natural language processing). </td></tr> -->
+</table>
+</div>
+</div>
+
+<br><br>
+
+
+<div id="publications">
+    <h2> Selected Publications</h2>
+
+    
+    <!-- <h3>Preprint</h3> -->
+    <!-- <table id="tbPublications" width="100%"> -->
+    <!-- <h3> Preprints </h3>
+        <tr>
+            <td width="100%">
+            <p>
+                <b>Towards Heterogeneous Model Aggregation in Federated Learning </b><br>
+                <b>Jiaqi Wang</b>, Fenglong Ma<br>
+            </p>
+        </tr> -->
+
+
+
+    <h3><td>Tutorials</td></h3>
+
+
+    <tr>
+        <td width="100%">
+        <p>
+            <b>Tutorial: Heterogeneity in Federated Learning</b><br>
+            <b>Jiaqi Wang</b>, Fenglong Ma<br>
+            <em><a href="https://www.siam.org/conferences/cm/conference/sdm24">SDM 2024</a></em><br>
+            [<a href="https://sites.google.com/view/sdm24fltutorial/home">Website</a>]
+        </p>
+        </tr>
+    <tr>
+
+
+    <h3><td>Conference Papers</td></h3>
+    <tr>
+        <td width="100%">
+        <p>
+            <b>CoRelation: Boosting Automatic ICD Coding Through Contextualized Code Relation Learning</b><br>
+            Junyu Luo, Xiaochen Wang, <b>Jiaqi Wang</b>, Aofei Chang, Yaqing Wang, Fenglong Ma<br>
+            <em><a href="https://lrec-coling-2024.org/">LREC-COLING 2024</a></em>
+            <!-- <br>Oral presentation<br>
+            [<a href="https://arxiv.org/pdf/2401.15874.pdf">Paper</a>] -->
+            <!-- [<a href="https://openreview.net/pdf?id=nXjyCmLOYj">Paper</a>] -->
+        </p>
+        </tr>
+    <tr>
+    <tr>
+        <td width="100%">
+        <p>
+            <b>Rethinking Personalized Federated Learning with Clustering-based Dynamic Graph Propagation</b><br>
+            <b>Jiaqi Wang</b>, Yuzhong Chen, Yuhang Wu, Mahashweta Das, Hao Yang, Fenglong Ma<br>
+            <em><a href="https://pakdd2024.org/">PAKDD 2024</a></em><br>
+            Oral presentation<br>
+            [<a href="https://arxiv.org/pdf/2401.15874.pdf">Paper</a>]
+            <!-- [<a href="https://openreview.net/pdf?id=nXjyCmLOYj">Paper</a>] -->
+        </p>
+        </tr>
+    <tr>
+    <tr>
+        <td width="100%">
+        <p>
+            <b>Unveiling Backdoor Risks Brought by Foundation Models in Heterogeneous Federated Learning</b><br>
+            Xi Li, Chen Wu, <b>Jiaqi Wang*</b><br>
+            <em><a href="https://pakdd2024.org/">PAKDD 2024</a></em><br>
+            [<a href="https://arxiv.org/pdf/2311.18350.pdf">Paper</a>]
+            
+        </p>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%">
+        <p>
+            <b>Automated Fusion of Multimodal Electronic Health Records for Better Medical Predictions</b><br>
+            Suhan Cui, <b>Jiaqi Wang</b>, Yuan Zhong, Han Liu, Ting Wang, Fenglong Ma<br>
+            <em><a href="https://www.siam.org/conferences/cm/conference/sdm24">SDM 2024</a></em><br>
+            <!-- [<a href="https://openreview.net/pdf?id=nXjyCmLOYj">Paper</a>] -->
+        </p>
+        </tr>
+    <tr>
+
+    <tr>
+        <td width="100%">
+        <p>
+            <b>MedDiffusion: Boosting Health Risk Prediction via Diffusion-based Data Augmentation</b><br>
+            Yuan Zhong, Suhan Cui, <b>Jiaqi Wang</b>, Ziyi Yin, Yaqing Wang, Houping Xiao, Mengdi Huai, Ting Wang, Fenglong Ma<br>
+            <em><a href="https://www.siam.org/conferences/cm/conference/sdm24">SDM 2024</a></em><br>
+            <!-- [<a href="https://openreview.net/pdf?id=nXjyCmLOYj">Paper</a>] -->
+        </p>
+        </tr>
+    <tr>
+        
+
+    <tr>
+        <td width="100%">
+        <p>
+            <b>VQAttack: Transferable Adversarial Attacks on Visual Question Answering via Pre-trained Models</b><br>
+            Ziyi Yin, Muchao Ye, Tianrong Zhang, <b>Jiaqi Wang</b>, Han Liu, Jinghui Chen, Ting Wang, Fenglong Ma<br>
+            <em><a href="https://aaai.org/aaai-conference/">AAAI 2024</a></em><br>
+            <!-- [<a href="https://openreview.net/pdf?id=nXjyCmLOYj">Paper</a>] -->
+        </p>
+        </tr>
+    <tr>
+
+
+
+    <tr>
+        <td width="100%">
+        <p>
+            <b>Hierarchical Pretraining on Multimodal Electronic Health Records</b><br>
+            Xiaochen Wang, Junyu Luo, <b>Jiaqi Wang</b>, Ziyi Yin, Suhan Cui, Yuan Zhong, Yaqing Wang, Fenglong Ma<br>
+            <em><a href="https://2023.emnlp.org/">EMNLP 2023</a></em><br>
+            [<a href="https://arxiv.org/pdf/2310.07871v2.pdf">Paper</a>]
+            <!-- [<a href="https://openreview.net/pdf?id=nXjyCmLOYj">Paper</a>] -->
+        </p>
+        </tr>
+    <tr>
+
+        <tr>
+            <td width="100%">
+            <p>
+                <b>Towards Personalized Federated Learning via Heterogeneous Model Reassembly</b><br>
+                <b>Jiaqi Wang</b>, Xingyi Yang, Suhan Cui, Liwei Che, Lingjuan Lyn, Dongkuan Xu, Fenglong Ma<br>
+                <em><a href="https://nips.cc/">NeurIPS 2023</a></em><br>
+                [<a href="https://openreview.net/pdf?id=zpVCITHknd">Paper</a>] [<a href="papers/NIPS_Poster_Jiaqi.pdf">Poster</a>]
+            </p>
+            </tr>
+        <tr>
+
+
+            <td width="100%">
+            <p>
+                <b>Knowledge-Enhanced Semi-Supervised Federated Learning for Aggregating Heterogeneous Lightweight Clients in IoT</b><br>
+                <b>Jiaqi Wang</b>, Shenglai Zeng, Zewei Long, Yaqing Wang, Houping Xiao, Fenglong Ma<br>
+                <em><a href="https://www.siam.org/conferences/cm/conference/sdm23"> SDM 2023</a></em><br>
+                [<a href="https://arxiv.org/pdf/2303.02668.pdf">Paper</a>] [<a href="slides/SDM_2023_Slides_Jiaqi.pdf">Slides</a>][<a href="slides/SDM_2023_Poster_Jiaqi.pdf">Poster</a>]
+                <!-- [<a href="https://arxiv.org/pdf/2109.04533.pdf">Paper</a>] -->
+                
+            </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="100%">
+            <p>
+                <b>AUTOMED: Automated Medical Risk Predictive Modeling on Electronic Health Records</b><br>
+                Suhan Cui, <b>Jiaqi Wang</b>, Xinning Gui, Ting Wang, Fenglong Ma<br>
+                <em><a href="https://ieeebibm.org/BIBM2022/"> BIBM 2022</a></em><br>
+                [<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9995209">Paper</a>]
+                
+            </p>
+            </td>
+        </tr>   
+
+
+        <tr>
+            <td width="100%">
+            <p>
+                <b>MedSkim: Denoised Health Risk Prediction via Skimming Medical Claims Data</b><br>
+                Suhan Cui, Junyu Luo, Muchao Ye, <b>Jiaqi Wang</b>, Ting Wang, Fenglong Ma<br>
+                <em><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10027678"> ICDM 2022</a></em><br>
+                <!-- [<a href="https://arxiv.org/pdf/2109.04533.pdf">Paper</a>] -->
+                
+            </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="100%">
+            <p>
+                <b>Towards Federated COVID-19 Vaccine Side Effect Prediction</b><br>
+                <b>Jiaqi Wang</b>, Cheng Qian, Suhan Cui, Lucas M. Glass, Fenglong Ma<br>
+                <em><a href="https://2022.ecmlpkdd.org/"> ECML PKDD 2022</a></em><br>
+                [<a href="https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_586.pdf">Paper</a>]
+                
+            </p>
+            </td>
+        </tr> 
+
+     
+        
+
+
+
+        <tr>
+            <td width="100%">
+            <p>
+                <b>FedTriNet: A Pseudo Labeling Method with Three Players for Federated Semi-supervised Learning</b><br>
+                Liwei Che, Zewei Long, <b>Jiaqi Wang</b>, Yaqing Wang, Houping Xiao, and Fenglong Ma<br>
+                <em><a href="https://bigdataieee.org/BigData2021/"> BigData 2021</a></em><br>
+                [<a href="https://arxiv.org/pdf/2109.05612.pdf">Paper</a>]
+                <!-- [<a href="https://github.com/google-research/valan">Code</a>]  -->
+            </p>
+            </td>
+        </tr>
+
+
+
+
+
+
+
+
+
+    
+        <!-- <tr>
+            <td width="100%">
+            <p>
+                <b>Privacy-preserving Strategies In Consensus Network Dynamics</b><br>
+                <b>Jiaqi Wang</b>, Christopher Griffin, Anna Cinzia Squicciarini<br>
+                <em>Under review</em><br>
+            [<a href="http://arxiv.org/abs/1910.11301">Paper</a>] -->
+            <!-- </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="100%">
+            <p>
+                <b>Tracing Communities through Longitudinal Reddit Data using Dynamic Bipartite Graphs</b><br>
+                <b>Jiaqi Wang</b>, Christopher Griffin, Anna Cinzia Squicciarini<br>
+                <em>Under review</em><br> -->
+            <!-- [<a href="http://arxiv.org/abs/1910.11301">Paper</a>] -->
+            <!-- </p>
+            </td>
+        </tr> -->
+
+
+        <!-- <tr>
+            <td width="100%">
+            <p>
+                <b>Present situation and future prospect of renewable energy in China</b><br>
+                Dahai Zhang, <b>Jiaqi Wang</b>, Yonggang Lin, Yulin Si, Can Huang, Jing Yang, Bin Huang, Wei Li<br>
+                <em>Renewable and Sustainable Energy Reviews (TOP SCI，IF: 9.184)</em><br>
+                [<a href="https://www.sciencedirect.com/science/article/abs/pii/S1364032117303416">Paper</a>]
+            </p>
+            </td>
+        </tr> -->
+    <!-- </table> -->
+    <h3><td>Journal Papers</td></h3>
+    <tr>
+        <td width="100%">
+        <p>
+            <b>Federated Learning for Rare Disease Detection: A Survey</b><br>
+            <b>Jiaqi Wang</b>, Fenglong Ma<br>
+            <em><a href="https://rdodjournal.com/">Rare Disease and Orphan Drugs Journal</a></em><br>
+            [<a href="https://f.oaes.cc/xmlpdf/0adb59be-3dd0-4c3c-92fe-290caed6019c/rdodj2016.pdf">Paper</a>]
+        </p>
+        </tr>
+    <tr>
+        <tr>
+            <td width="100%">
+            <p>
+                <b>Multimodal Federated Learning: A Survey</b><br>
+                Liwei Che, <b>Jiaqi Wang</b>, Fenglong Ma<br>
+                <em><a href="https://www.mdpi.com/journal/sensors">Sensors</a></em><br>
+                [<a href="papers/mfl_survey.pdf">Paper</a>]
+            </p>
+            </tr>
+        <tr>
+    
+
+    <h3><td>Workshop Papers</td></h3>
+
+    <tr>
+        <td width="100%">
+        <p>
+            <b>Backdoor Threats from Compromised Foundation Models to Federated Learning</b><br>
+            Xi Li, Songhe Wang, Chen Wu, Hao Zhou,  <b>Jiaqi Wang*</b><br>
+            <em><a href="https://federated-learning.org/fl@fm-neurips-2023/"> International Workshop on Federated Learning in the Age of Foundation Models in Conjunction with NeurIPS 2023</a></em><br>
+            [<a href="https://arxiv.org/pdf/2311.00144.pdf">Paper</a>]
+            <!-- [<a href="https://github.com/JackqqWang/JOELIN">Code</a>] --> 
+        </p>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%">
+        <p>
+            <b>FedLEGO: Enabling Heterogenous Model Cooperation via Playing Toys</b><br>
+            <b>Jiaqi Wang</b>, Suhan Cui, Fenglong Ma<br>
+            <em><a href="https://fl4data-mining.github.io/">Federated Learning for Distributed Data Mining, KDD 2023</a></em><br>
+            [<a href="https://openreview.net/pdf?id=nXjyCmLOYj">Paper</a>] (The full version has been accepted by NeurIPS 2023.)
+        </p>
+        </tr>
+    <tr>
+    <tr>
+        <td width="100%">
+        <p>
+            <b>An In-depth Review of Privacy Concerns Raised by the COVID-19 Pandemic</b><br>
+            <b>Jiaqi Wang</b><br>
+            <em>AAAI Workshop 2021</em><br>
+            [<a href="https://arxiv.org/pdf/2101.10868.pdf">Paper</a>] [<a href="slides/AAAI_2021_Presentation_Jiaqi_Wang.pdf">Slides</a>]
+            <!-- <font color="red">Ranking 1st on the CVDN leaderboard</font><br> 
+            [<a href="https://arxiv.org/abs/2007.00229">Paper</a>]
+            [<a href="https://github.com/google-research/valan">Code</a>]  -->
+        </p>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%">
+        <p>
+            <b>Are Learners Satisfied with their MOOC Experiences? Assessing and Improving Online Learners’ Interactions</b><br>
+            <b>Jiaqi Wang</b>, <a href="https://chacha-chen.github.io/">Chacha Chen</a>, <a href="http://hua-shen.org/">Hua Shen</a>, <a href = "http://www.frankritter.com/ritter.html">Frank E Ritter</a><br>
+            <em><a href="https://asian-chi.github.io/2021/"> Asian Chi 2021</a></em><br>
+            [<a href="https://dl.acm.org/doi/abs/10.1145/3429360.3468223">Paper</a>]
+            
+        </p>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%">
+        <p>
+            <b>Joint Event Multi-task Learning for Slot Filling in Noisy Text</b><br>
+            <a href="https://chacha-chen.github.io/">Chacha Chen</a>, <a href="https://appleternity.github.io/chieh-yang/">Chieh-Yang Huang</a>, Yaqi Hou, <a href="https://sites.google.com/site/yshicv/"> Yang Shi</a>, <a href="https://enyandai.github.io/"></a>Enyan Dai</a>, <b>Jiaqi Wang*</b><br>
+            <em>In Proceedings of the Workshop on Noisy User-generated Text (W-NUT, EMNLP 2020)</em><br>
+            [<a href="https://arxiv.org/pdf/2009.14262.pdf">Paper</a>]
+            [<a href="https://github.com/JackqqWang/JOELIN">Code</a>]
+        </p>
+        </td>
+    </tr>
+    <h3><td>Preprint Papers</td></h3>
+
+    <tr>
+        <td width="100%">
+        <p>
+            <b>Recent Advances in Predictive Modeling with Electronic Health Records</b><br>
+            <b>Jiaqi Wang</b>, Junyu Luo, Muchao Ye, Xiaochen Wang, Yuan Zhong, Aofei Chang, Guanjie Huang, Ziyi, Yin, Cao Xiao, Jimeng Sun, Fenglong Ma<br>
+            <em>arXiv preprint arXiv:2402.01077v1</em><br>
+            [<a href="https://arxiv.org/pdf/2402.01077.pdf">Paper</a>]
+            
+        </p>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%">
+        <p>
+            <b>Vulnerabilities of Foundation Model Integrated Federated Learning Under Adversarial Threats</b><br>
+            Chen Wu, Xi Li, <b>Jiaqi Wang*</b><br>
+            <em>arXiv preprint arXiv:2401.10375v1</em><br>
+            [<a href="https://arxiv.org/pdf/2401.10375v1.pdf">Paper</a>]
+            
+        </p>
+        </td>
+    </tr>
+    
+
+    <tr>
+        <td width="100%">
+        <p>
+            <b>FedCon: A Contrastive Framework for Federated Semi-Supervised Learning</b><br>
+            Zewei Long, <b>Jiaqi Wang</b>, Yaqing Wang, Houping Xiao, Fenglong Ma<br>
+            <em>arXiv preprint arXiv:2109.045331</em><br>
+            [<a href="https://arxiv.org/pdf/2109.04533.pdf">Paper</a>]
+        </p>
+        </td>
+    </tr>
+
+<br>
+<div id="experience">
+<h2>Experience</h2>
+
+<table id="tbPublications" width="100%">
+
+<tr>
+    <td>
+        <p> <a href = "https://ai.sony/">Sony AI</a>, US</p>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Research Intern, &nbsp Spring 2024 </p>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Mentors: Jingtao Li,  Weiming Zhuang, Lingjuan Lyu</p>
+        <!-- <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Mentors: Bin Yang, Shinya Maruyama, Masanobu Jimbo, <br />  Hideho Gomi, Amutha Alagasamy</p> -->
+    </td>
+    <td align="center">
+        <p><img src="logos/sony_ai.png" height=50px></p>
+    </td>
+</tr>
+
+
+<tr>
+    <td>
+        <p> <a href = "https://usa.visa.com/about-visa/visa-research.html"> Visa Research</a>, CA, US</p>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Machine Learning Research Intern, &nbsp Summer 2022, 2023 </p>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Mentors in 2023: Yiwei Cai, Shan Jin, Yuzhong Chen</p>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Mentors in 2022: <a href = "https://usa.visa.com/about-visa/visa-research/hao-yang.html"> Hao Yang</a>, <a href = "https://usa.visa.com/about-visa/visa-research/yuzhong-chen.html"> Yuzhong Chen</a>, <a href = "https://usa.visa.com/about-visa/visa-research/yuhang-wu.html"> Yuhang Wu</a></p>
+    </td>
+    <td align="center">
+        <p><img src="logos/visa.png" height=70px></p>
+    </td>
+</tr>  
+
+
+
+
+<tr>
+    <td>
+        <p> <a href = "https://www.iqvia.com/landing/analytics-center-of-excellence"> Analytics Center of Excellence, IQVIA</a>, MA, US</p>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Machine Learning Research Intern, &nbsp Summer 2021</p>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Mentors: <a href = "https://cqian1127.github.io/"> Cheng Qian</a></p>
+    </td>
+    <td align="center">
+        <p><img src="logos/iqvia.png" height=35px></p>
+    </td>
+</tr>
+
+
+    
+    <tr>
+        <td>
+            <p> <a href = "https://www.usgs.gov/"> USGS</a>, GA, US</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Research Scientist Intern, &nbsp Spring 2019</p>
+        </td>
+        <td align="center">
+            <p><img src="logos/USGS.png" height=50px></p>
+        </td>
+    </tr>
+
+	
+</table>
+</div>
+
+
+<br>
+
+
+
+
+
+
+<div id='teaching'>
+<h2>Teaching</h2>
+<h3><td>Teaching Assistant</td></h3>
+        <td>2023</td> 
+        <td>Fall</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>Teaching Assistant</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>DS402: Data Science in Healthcaree</td>
+    </tr>
+    <br/>
+    <tr>
+        <td>2022</td> 
+        <td>Fall</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>Teaching Assistant</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>DS310: Machine Learning for Data Analytics</td>
+    </tr>
+    <br/>
+    <tr>
+        <td>2022</td> 
+        <td>Spring</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>Teaching Assistant</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>DS310: Machine Learning for Data Analytics</td>
+    </tr>
+    <br/>
+    <tr>
+        <td>2021</td> 
+        <td>Fall</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>Teaching Assistant</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>DS310: Machine Learning for Data Analytics</td>
+    </tr>
+    <br/>
+    <tr>
+        <td>2021</td> 
+        <td>Spring</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>Teaching Assistant</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>DS300: Data Privacy and Security</td>
+    </tr>
+    <h3><td>Mentored Students</td></h3>
+    <tr>
+        <td>Shiqi Wang </td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <td>M.S.</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>Purdue University</td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- <td>Teaching Assistant</td> &nbsp;&nbsp;&nbsp;&nbsp; -->
+        <td>Jun. 2023 - Present</td>
+    </tr>
+    <br/>
+    <tr>
+        <td>Jingxuan Wang </td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>B.S.</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>The Pennsylvania State University</td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- <td>Teaching Assistant</td> &nbsp;&nbsp;&nbsp;&nbsp; -->
+        <td>Sep. 2023 - Present</td>
+    </tr>
+    <br/>
+    <tr>
+        <td>Aaron Cui </td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <td>B.S.</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>The Pennsylvania State University</td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- <td>Teaching Assistant</td> &nbsp;&nbsp;&nbsp;&nbsp; -->
+        <td>Sep. 2023 - Present</td>
+    </tr>
+    <br/>
+    <tr>
+        <td>Boyang Wang </td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <td>B.S.</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>Lanzhou University</td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- <td>Teaching Assistant</td> &nbsp;&nbsp;&nbsp;&nbsp; -->
+        <td>Jul. 2023 - Dec. 2023</td>
+    </tr>
+    <br/>
+    <tr>
+        <td>Chenlong Yin </td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <td>B.S.</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>University of Science and Technology of China</td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- <td>Teaching Assistant</td> &nbsp;&nbsp;&nbsp;&nbsp; -->
+        <td>Jul. 2023 - Dec. 2023</td>
+    </tr>
+    <br/>
+
+    <tr>
+        <td>Shenglai Zeng </td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <td>B.S.</td> &nbsp;&nbsp;&nbsp;&nbsp;
+        <td>University of Electronic Science and Technology of China</td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <td>2021 - 2022</td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <td>Now Ph.D. student at MSU</td>
+    </tr>
+    <br/>
+</div>
+<br><br>
+
+
+<div id="award">
+    <h2>Awards</h2>
+    
+    <li>
+        
+        <b>Excellent Research Award</b>, <em>IST, Penn State</em>, 2024<br>
+
+        <p style="margin-top:3px">
+        </p>        
+    </li>
+    
+    <li>
+         <b>Conference Travel Grants</b>, <em>SDM, NeurIPS, KDD</em>, 2022 - 2024<br>
+
+        <p style="margin-top:3px">
+        </p>		
+    </li>
+    
+    <li>
+        
+        
+        
+        <b>College Travel Award</b>, <em>IST, Penn State</em>, 2021 - 2023<br>
+        <p style="margin-top:3px">
+        </p>        
+    </li>
+    
+    <li>
+    
+        <b>Brahm Verma Graduate Leadership Award - Honorable Mention</b>, <em>University of Georgia</em>, 2019<br>
+          
+        <p style="margin-top:3px">
+        </p>        
+    </li>
+    
+    
+    <br><br>
+
+<div id="service">
+    <h2>Service</h2>
+    
+    <li>
+        
+        <b>Conference Program Committee or Reviewer: </b>
+        KDD 2024, IJCAI 2024, SDM 2024, EMNLP 2023, KDD 2023, ACL 2023, AAAI 2023, CIKM 2023, NeurIPS 2022, LOG 2022,2023, FedGraph 2022,  ACL-IJCNLP 2021,   W-NUT 2020,   WSDM 2021,   CCS 2020,   IEEE IPCCC 2020,   WASA 2020.
+        <p style="margin-top:3px">
+        </p>        
+    </li>
+    
+    <li>
+         <b>Journal Reviewer:</b>  
+        <a href="https://www.emerald.com/insight/publication/issn/2398-6247"> Information Discovery and Delivery</a> 	
+
+        <p style="margin-top:3px">
+        </p>		
+    </li>
+    
+    <li>
+
+        <b>Session Chair: </b>
+        <a href="http://www.ieee-cybermatics.org/2020/cybermatics/"> IEEE Cybermatics Congress 2020</a> &nbsp	
+        <p style="margin-top:3px">
+        </p>        
+    </li>
+    
+    <li>
+    
+        <b>Judge: </b>
+            <a href="https://www.comap.com/undergraduate/contests/"> MCM 2019 - 2024</a> &nbsp	
+        <p style="margin-top:3px">
+        </p>        
+    </li>
+    
+    <br><br>
+
+
+
+
+<div id='Personal'>
+<h2>Personal</h2>
+
+
+
+<li>
+    <b>Be kind and brave.</b>	
+    <p style="margin-top:3px"></p>        
+</li>
+<!-- <li>
+    <b>I am always <a href="https://www.jqwang.page/me"><b>having fun</b></a>.</b>	
+    <p style="margin-top:3px"></p>        
+</li> -->
+
+<!-- <li>
+    <b>Limited people are contributing to the world, while most ones are enjoying it.</b>	
+    <p style="margin-top:3px"></p>        
+</li> -->
+<li>
+    <b>I am writing a book to record the unforgettable and adventurous pieces in my life.</b>	
+    <p style="margin-top:3px"></p>        
+</li>
+<li>
+    <b>Co-founder of <a href="https://www.fablabs.io/labs/fabei"> Fablab Hangzhou</a>. One of our targets is to help disabled children education via developing educational tools.</b> 
+    <p style="margin-top:3px"></p>        
+</li>
+</div>
+	
+	
+	
+
+<!-- <div id="footer"> -->
+<!-- <p> -->
+<!-- <center> -->
+    <!-- <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=cbe090&w=300&d=aJJ1wUAUT3iAzbbM3So9Rj0rh8-XOWIxZRgWKqOvcDk&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></script> -->
+    <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=FCxcl2_big3T4rMqnah_ewYaFcEKJ6hDiu0n41inbZA"></script> -->
+    <!-- <br> -->
+    <!-- &copy; Jiaqi (Jack) Wang -->
+<!-- </center> -->
+<!-- </p> -->
+
+<!-- </div> -->
+	
+
+<div id="footer">
+	<!-- <div id="footer-text"></div> -->
+<p>
+<center>
+    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=cbe090&w=300&d=aJJ1wUAUT3iAzbbM3So9Rj0rh8-XOWIxZRgWKqOvcDk&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></script>
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=FCxcl2_big3T4rMqnah_ewYaFcEKJ6hDiu0n41inbZA"></script>
+    <br>
+    &copy; Jiaqi (Jack) Wang, last updated April, 2024
+</center>
+</p>
+
+</div>
+
+
+
+</div>
+</body>
+</html>
